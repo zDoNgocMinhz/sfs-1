@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'quicksand': ['Quicksand', 'sans-serif']
+      },
       colors: {
         primary: '#003459', 
         secondary: '#F7DBA7', 

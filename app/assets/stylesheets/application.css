@@ -8,3 +8,22 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+.btn-primary {
+  @apply bg-yellow-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-yellow-600 transition;
+}
+
+.btn-secondary {
+  @apply border-2 border-yellow-500 text-yellow-500 px-6 py-3 rounded-full font-semibold hover:bg-yellow-50 transition;
+}
+
+/* Custom colors */
+:root {
+  --primary-color: #FFC529;
+  --secondary-color: #FE724C;
+}
+
+/* Add padding to body to account for fixed header */
+body {
+  @apply pt-20;
+}
